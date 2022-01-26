@@ -49,10 +49,12 @@ public class SellerListController implements Initializable, DataChangeListener {
 	private TableColumn<Seller, Date> tableColumnBirthDate;
 	@FXML
 	private TableColumn<Seller, Double> tableColumnBaseSalary;
+	
 	@FXML
 	private TableColumn<Seller, Seller> tableColumnEDIT;
 	@FXML
 	private TableColumn<Seller, Seller> tableColumnREMOVE;
+	
 	@FXML
 	private Button btNew;
 
