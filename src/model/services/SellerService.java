@@ -7,9 +7,9 @@ import model.dao.SellerDao;
 import model.entities.Seller;
 
 public class SellerService {
-	
-	private SellerDao dao = DaoFactory.createSellerDao("jdbc:mysql://localhost:3306/coursejdbc?useSSL=false", "root", "1234567");
 
+	private SellerDao dao = DaoFactory.createSellerDao();
+	
 	public List<Seller> findAll() {
 		return dao.findAll();
 	}

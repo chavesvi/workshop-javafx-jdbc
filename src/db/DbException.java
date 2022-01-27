@@ -1,4 +1,4 @@
-package jdbc.connector;
+package db;
 
 public class DbException extends RuntimeException{
 
